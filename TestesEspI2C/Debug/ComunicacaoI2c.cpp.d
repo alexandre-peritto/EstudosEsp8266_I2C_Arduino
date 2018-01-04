@@ -1,5 +1,6 @@
-C:\Users\alexandre.alvaro\AppData\Local\Temp\VMBuilds\TestesEspI2C\esp8266_d1_mini\Debug\TestesEspI2C.cpp.o: \
- C:\Users\alexandre.alvaro\AppData\Local\Temp\VMBuilds\TestesEspI2C\esp8266_d1_mini\Debug\TestesEspI2C.cpp \
+C:\Users\alexandre.alvaro\AppData\Local\Temp\VMBuilds\TestesEspI2C\esp8266_d1_mini\Debug\ComunicacaoI2c.cpp.o: \
+ C:\Users\alexandre.alvaro\AppData\Local\Temp\VMBuilds\TestesEspI2C\esp8266_d1_mini\Debug\ComunicacaoI2c.cpp \
+ C:\Users\alexandre.alvaro\AppData\Local\Temp\VMBuilds\TestesEspI2C\esp8266_d1_mini\Debug\ComunicacaoI2c.h \
  C:\Users\alexandre.alvaro\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.3.0\cores\esp8266/Arduino.h \
  C:\Users\alexandre.alvaro\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.3.0\cores\esp8266/stdlib_noniso.h \
  C:\Users\alexandre.alvaro\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.3.0\cores\esp8266/binary.h \
@@ -31,7 +32,4 @@ C:\Users\alexandre.alvaro\AppData\Local\Temp\VMBuilds\TestesEspI2C\esp8266_d1_mi
  C:\Users\alexandre.alvaro\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.3.0\cores\esp8266/md5.h \
  C:\Users\alexandre.alvaro\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.3.0\cores\esp8266/debug.h \
  C:\Users\alexandre.alvaro\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.3.0\variants\d1_mini/pins_arduino.h \
- C:\Users\alexandre.alvaro\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.3.0\variants\d1_mini/../generic/common.h \
- C:\Users\alexandre.alvaro\AppData\Local\Temp\VMBuilds\TestesEspI2C\esp8266_d1_mini\Debug\ComunicacaoI2c.h \
- C:\Users\alexandre.alvaro\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.3.0\libraries\Wire/Wire.h \
- C:\Program\ Files\ (x86)\Microsoft\ Visual\ Studio\2017\Community\Common7\IDE\Extensions\pbd1usl1.2ll\Micro\ Platforms\default\debuggers\VM_DBG/VM_DBG.h
+ C:\Users\alexandre.alvaro\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.3.0\variants\d1_mini/../generic/common.h

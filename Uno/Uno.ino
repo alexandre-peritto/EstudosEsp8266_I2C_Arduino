@@ -1,3 +1,4 @@
+#include "ComunicacaoI2c.h"
 #include <Wire.h>
 
 void setup() {
@@ -11,7 +12,11 @@ void loop() {
 }
 
 void Evento_RequisicaoDaCentral() {
-	auto pacote = "hello!";
-	Wire.write(pacote);
-	Serial.println(pacote);
+	using namespace comunicacao;
+	DadosI2c dadosI2c;
+	dadosI2c.dadoByte1 = 25;
+	dadosI2c.dadoByte2 = 14;
+	Wire.write((byte*)&dadosI2c, 2);
+	Serial.println(dadosI2c.dadoByte1);
+	Serial.println(dadosI2c.dadoByte2);
 }
