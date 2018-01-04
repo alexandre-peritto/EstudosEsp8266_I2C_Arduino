@@ -13,13 +13,16 @@ void loop() {
 
 void RequisitarDadosModulo(int enderecoModulo) {
 	using namespace comunicacao;
-	DadosI2c dadosI2c;
-	Wire.requestFrom(enderecoModulo, 2);
-	if (Wire.available() == 2) {
-		 Wire.readBytes((byte*)&dadosI2c, 2);
+	int bytesBuffer = 10;
+	char pesoBruto[10] = "";
+	Wire.requestFrom(enderecoModulo, bytesBuffer);
+	int i = 0;
+	while (Wire.available()) {
+		pesoBruto[i] = Wire.read();
+		i = i + 1;
 	}
-	Serial.println(dadosI2c.dadoByte1);
-	Serial.println(dadosI2c.dadoByte2);
-	
+	auto peso = strtod(pesoBruto, NULL);
+	Serial.println(peso, 2);
+
 	delay(500);
 }

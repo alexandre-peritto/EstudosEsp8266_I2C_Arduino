@@ -13,10 +13,9 @@ void loop() {
 
 void Evento_RequisicaoDaCentral() {
 	using namespace comunicacao;
-	DadosI2c dadosI2c;
-	dadosI2c.dadoByte1 = 25;
-	dadosI2c.dadoByte2 = 14;
-	Wire.write((byte*)&dadosI2c, 2);
-	Serial.println(dadosI2c.dadoByte1);
-	Serial.println(dadosI2c.dadoByte2);
+	double pesoBruto = 1.618;
+	char dados[10];
+	dtostrf(pesoBruto, 6, 3, dados);
+	Wire.write(dados, 10);
+	Serial.println(dados);
 }

@@ -9,9 +9,9 @@
 
 namespace comunicacao
 {
-	struct DadosI2c{
-		byte dadoByte1;
-		byte dadoByte2;
+	struct DadosVolume
+	{
+		double pesoBruto;
 	};
 }
 #endif
